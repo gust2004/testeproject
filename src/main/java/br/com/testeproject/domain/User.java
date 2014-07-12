@@ -18,7 +18,7 @@ public class User {
     @GeneratedValue
     @Column(name = "USER_ID")
     private Integer id;
-    @Column(name = "USER_NAME", nullable = true, length = 100)
+    @Column(name = "USER_NAME", nullable = false, length = 80)
     private String name;
     @Column(name = "USER_EMAIL", nullable = true, length = 100)
     private String email;
